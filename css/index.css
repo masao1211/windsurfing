@@ -1,0 +1,128 @@
+#topImage{
+    margin-bottom: 5%;
+    color: #d5eeff;
+}
+#topImage .text{
+    position: absolute;
+    top: 150px;
+    left: -20px;
+    transform : translate(15vw, 0px);
+    line-height: 100px;
+}
+#topImage .text .teamName{
+    font-size: 10vw;
+}
+#topImage .text .additionalMessage{
+    font-size: 5vw;
+}
+#topImage img{
+    height: 600px;
+    width: auto;
+}
+
+
+#greeting {
+    display: flex;
+    margin: 5% 0%;
+    padding: 0%;
+}
+.greetingImage{
+    margin: 0% 5%;
+    width: 100%;
+    height: auto;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #1b435d;
+}
+#greeting .ui.button{
+    position: absolute;
+    transform : translate(-40vw, 4vw);
+    background-color: #d5eeffb0;
+    font-size: 3.5vw;
+    width: 30vw;
+    height: 20vw;
+}
+#greeting .ui.button:hover{
+    background-color: #d5eeffd0;
+}
+
+
+#sns{
+    margin: 5%;
+    background-color: #d5eeff80;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1b435d;
+}
+#snsContents{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5% 1%;
+}
+.snsContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #d5eeff;
+    font-size: 24px;
+    background-color: #f99f48;
+    height: 560px;
+    width: 380px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1b435d;
+    margin: 5px;
+}
+.snsText a{
+    color: #d5eeff;
+}
+
+#twitter{
+    background-color: #78bbe6d0;
+}
+#instagram{
+    background-color: #f99f48d0;
+}
+#facebook{
+    background-color: #1b435dd0;
+}
+
+
+#instagramFeed{
+    color: black;
+    background-color: #fafafa;
+    height: 500px;
+    width: 340px;
+}
+#instagramTitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#instagramTopImage{
+    padding: 20px;
+    height: 120px;
+    width: 120px;
+}
+.instagramParagraph{
+    margin-left: 20px;
+    font-size: 12px;
+}
+.titleParagraph{
+    font-weight: bold;
+}
+#instagramImages{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.instagramImage{
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+}
+

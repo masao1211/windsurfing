@@ -1,0 +1,40 @@
+#items{
+    margin: 5%;
+    margin-top: 100px;
+    background-color: #d5eeff80;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1b435d;
+}
+
+#items > .item{
+    margin: 5% 5%;
+    width: auto;
+}
+#items > .item > .image{
+    margin-right: 5%;
+}
+#items > .item > .content > .header,
+#items > .item > .content > .meta,
+#items > .item > .content > .description,
+#items > .item > .content > .extra{
+    color: #1b435d;
+}
+#items > .item > .content > .header{
+    font-size: 30px;
+    padding-top: 30px;
+    line-height: 30px;
+}
+#items > .item > .content > .meta{
+    font-size: 15px;
+}
+#items > .item > .content > .description{
+    font-size: 20px;
+}
+
+#items > .item > .wideImage > img{
+    width: 80vw;
+    height: auto;
+}
+
+.item > .image > a > img{max-width:100%!important;width:auto!important;max-height:250px!important}

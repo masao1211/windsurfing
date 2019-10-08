@@ -1,0 +1,74 @@
+#mainTableDisplayArea{
+    margin: 5%;
+    margin-top: 100px;
+}
+#selectScheduleResult{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.ui.attached.tabular.menu.main,
+.ui.attached.tabular.menu.sub
+{
+    border-bottom-width: 1px;
+    border-color: #1b435d;
+}
+#mainTableDisplayArea > .ui.attached.tab.segment.main.active,
+#mainTableDisplayArea > .ui.attached.tab.segment.main,
+#subTableDisplayArea > .ui.attached.tab.segment.sub.active,
+#subTableDisplayArea > .ui.attached.tab.segment.sub{
+    border-width: 1px;
+    border-top-width: 0px;
+    border-color: #1b435d;
+    background-color: #d5eeff80;
+    color: #1b435d;
+}
+#mainTableDisplayArea > .ui.attached.tab.segment.main.active > table,
+#mainTableDisplayArea > .ui.attached.tab.segment.main > table,
+#subTableDisplayArea > .ui.attached.tab.segment.sub.active > table,
+#subTableDisplayArea > .ui.attached.tab.segment.sub > table{
+    border-width: 1px;
+    border-color: #1b435d;
+    background-color: #d5eeff;
+    color: #1b435d;
+}
+#mainTableDisplayArea > .ui.attached.tab.segment.main.active > table th,
+#mainTableDisplayArea > .ui.attached.tab.segment.main > table th,
+#subTableDisplayArea > .ui.attached.tab.segment.sub.active > table th,
+#subTableDisplayArea > .ui.attached.tab.segment.sub > table th{
+    border-width: 1px;
+    border-color: #1b435d !important;
+    background-color: #78bbe6;
+    color: #1b435d; 
+}
+.ui.attached.tabular.menu.main > a,
+.ui.attached.tabular.menu.sub > a{
+    background-color: #d5eeff80;
+    border-width: 1px;
+    border-color: #1b435d;
+    color: #1b435d;
+}
+th a .ui.circular.icon.button,
+td a .ui.circular.icon.button{
+    font-size: 18px;
+    background-color: #78bbe6;
+}
+td a .ui.circular.icon.button{
+    background-color: #78bbe6;
+}
+td a .ui.circular.icon.button{
+    background-color: #d5eeff;
+}
+th a .ui.circular.icon.button:hover{
+    background-color: #d5eeff60;
+}
+td a .ui.circular.icon.button:hover{
+    background-color: #78bbe660;
+}
+
+.ui.circular.icon.button > .zoom-in.icon,
+.ui.circular.icon.button > .list.alternate.outline.icon,
+.ui.circular.icon.button > .file.alternate.icon{
+    color: #1b435d;
+}

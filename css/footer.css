@@ -1,0 +1,48 @@
+#sponser{
+    margin: 5%;
+    width: 90%;
+    background-color: #d5eeff80;
+    color: #1b435d;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1b435d;
+}
+#sponserText{
+    padding: 2%;
+    font-size: 20px;
+    color: #1b435d;
+}
+#sponserApplyText{
+    widows: 90%;
+    text-align: right;
+    padding: 2%;
+}
+#sponserApplyText a{
+    padding: 2%;
+    font-size: 20px;
+    color: #1b435d;
+}
+#sponserApplyText a:hover{
+    background-color: #78bbe630;
+}
+
+#sponserImages{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sponserImage{
+    margin: 2vw;
+    height: 40px;
+    width: auto;
+}
+
+#copyright{
+    text-align: center;
+    background-color: #1b435dd0;
+    color: #d5eeff;
+    font-size: 12px;
+    padding: 12px;
+}
